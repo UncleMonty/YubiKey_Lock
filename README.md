@@ -1,19 +1,36 @@
 # yubikey_lock
 
 What to Include in your README
-1. Project's Title
-This is the name of the project. It describes the whole project in one sentence, and helps people understand what the main goal and aim of the project is.
+1. Project Title 
 
-2. Project Description
-This is an important component of your project that many new developers often overlook.
+   Yubikey Lock
 
-Your description is an extremely important aspect of your project. A well-crafted description allows you to show off your work to other developers as well as potential employers.
+3. Project Description
 
-The quality of a README description often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase:
+    Motivation:
+        I wanted to use my Yubikey token with my Microsoft Account (MSA) on my local hosts.
+        As of wwriting this (20-March-2024), this is not a feature for MSAs to be used on Windows when logging onto a host.
+        I wanted this application to function similairiy to using a Common Access Card (CAC) or a Personal Identity Verfication (PIV) token.
+        
+    What the application does:
+        The application is a proof of concept for Yubikey token's for MSAs.
+        A Yubikey's serial number (SN) would be bounded to a Windows account (regardless if it was an MSA or lcoal account).
+          1) The program checks the presence of Yubikey (By Product ID)
+          2) Then the program checks for that Yubikey's SN.
+          3) The detected SN must match at least 1 of "EXPECTED_SERIAL_#" variables coded into the file, else the appplication locks the screen.
+          4) The application then checks for the username logging in/currently logged in.
+          5) The detected username must match the "EXPECTED_USER" variable coded into the file, else the appplication locks the screen.
+          6) If both constraints are met, the user can log on or reamined logged on.
+          7) The program checks for these constraints every 1 second.
+       If you remove the Yubikey from its USB port, it will lock the screen within 1 second. 
+        
+    What technmoglies were used:
+        Windows 11
+        Visual Studio Code
+        Copilot
+        Chat GPT
+        Python 3.+
 
-What your application does,
-Why you used the technologies you used,
-Some of the challenges you faced and features you hope to implement in the future.
 3. Table of Contents (Optional)
 If your README is very long, you might want to add a table of contents to make it easy for users to navigate to different sections easily. It will make it easier for readers to move around the project with ease.
 
