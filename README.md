@@ -2,11 +2,11 @@
 
 TABLE OF CONTENTS
 
-   1. Project Title
-   2. Project Description
-   3. How to Install and Run the Project
-   4. How to Use the Project
-   5. Credits
+      1. Project Title
+      2. Project Description
+      3. How to Install and Run the Project
+      4. How to Use the Project
+      5. Credits
 
 1. Project Title 
 
