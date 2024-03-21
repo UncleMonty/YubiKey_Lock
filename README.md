@@ -23,8 +23,8 @@ TABLE OF CONTENTS
 
 - What the application does:
   
--    The application is a proof of concept for Yubikey token's for MSAs.
--    A Yubikey's serial number (SN) would be bounded to a Windows account (regardless if it was an MSA or local account).
+   - The application is a proof of concept for Yubikey token's for MSAs.
+   - A Yubikey's serial number (SN) would be bounded to a Windows account (regardless if it was an MSA or local account).
    
       1) The program checks the presence of Yubikey (By Product ID)
       2) Then the program checks for that Yubikey's SN.
@@ -34,7 +34,7 @@ TABLE OF CONTENTS
       6) If both constraints are met, the user can log on or remained logged on.
       7) The program checks for these constraints every 1 second.
 
--    If you remove the Yubikey from its USB port, it will lock the screen within 1 second. 
+   - If you remove the Yubikey from its USB port, it will lock the screen within 1 second. 
 
 3. What technologies were used:
    
@@ -46,19 +46,19 @@ TABLE OF CONTENTS
 
 4. How to Install and Run the Project
 
-   FAILSAFE: Configure a local admin account that uses the Yubikey login (https://www.yubico.com/products/computer-login-tools/)
-   1) This is going to serve as a failsafe in case the application is misconfigured.
-   2) Confirm that this local administrator can read/write to C:\Users\%USER%; Make sure you can access your intended MSA account and its Startup folder.
+   - FAILSAFE: Configure a local admin account that uses the Yubikey login (https://www.yubico.com/products/computer-login-tools/)
+      1) This is going to serve as a failsafe in case the application is misconfigured.
+      2) Confirm that this local administrator can read/write to C:\Users\%USER%; Make sure you can access your intended MSA account and its Startup folder.
    
-   Download/Configuration
+   - Download/Configuration
    
-   1) While logged into your MSA, move to the tools\1_yubikey_username folder of this project and run the "1_yubikey_username.lnk" file.
-   2) This will open a window that provides what Windows sees as your username.
-   3) While logged into your MSA, move to the tools\2_yubikey_sn folder of this project and run the "2_yubikey_sn.lnk" file.
-   4) This will open a window that provides what Yubikey SN(s) Windows detects.
-   5) Open up the "yubi_lock.pyw" file in either a Python Interpreter or a text editor.
-   6) Replace the values for your SN(s) and username respectively, and uncomment/comment out the lines needed for your instance.
-   7) Save your “yubi_lock.pyw" file.
+      1) While logged into your MSA, move to the tools\1_yubikey_username folder of this project and run the "1_yubikey_username.lnk" file.
+      2) This will open a window that provides what Windows sees as your username.
+      3) While logged into your MSA, move to the tools\2_yubikey_sn folder of this project and run the "2_yubikey_sn.lnk" file.
+      4) This will open a window that provides what Yubikey SN(s) Windows detects.
+      5) Open up the "yubi_lock.pyw" file in either a Python Interpreter or a text editor.
+      6) Replace the values for your SN(s) and username respectively, and uncomment/comment out the lines needed for your instance.
+      7) Save your “yubi_lock.pyw" file.
 
 5. How to Use the Project
 
