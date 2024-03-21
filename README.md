@@ -9,6 +9,8 @@ TABLE OF CONTENTS
 5) How to Use the Project
 6) Credits
 
+######################################
+
 1. Project Title
 
    - Yubikey Lock
@@ -61,14 +63,14 @@ TABLE OF CONTENTS
       7) Save your “yubi_lock.pyw" file.
 
 5. How to Use the Project
-
+   
       1) Copy your modified "yubi_lock.pyw" file.
       2) Navigate to C:\Users\%USER%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
       3) alternatively press: "win + r", and type: "shell:startup"
       4) Paste your modified "yubikey_lock.pyw" as a SHORTCUT.
       5) Reboot your device and attempt to login with your YubiKey on your MSA.
 
-6. Credits
+7. Credits
 
    This is currently a solo project developed by UncleMonty
    https://github.com/UncleMonty
