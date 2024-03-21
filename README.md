@@ -47,21 +47,21 @@ TABLE OF CONTENTS
       a) This is going to serve as a failsafe in case the application is misconfigured.
       b) Confirm that this local administrator can read/write to C:\Users\%USER%; Make sure you can access your intended MSA account and its Startup folder.
             
-   1) While logged into your MSA, move to the tools folder of this project and run the "1_yubikey_username.py" file.
-      a) This will open a window that provides what Windows sees as your username.
-   2) While logged into your MSA, move to the tools folder of this project and run the "2_yubikey_sn.py" file.
-      a) This will open a window that provides what Yubikey SN(s) Windows detects.
-   3) Open up the "yubi_lock.pyw" file in either a Python Interpreter or a text editor.
-   4) Replace the values for your SN(s) and username respectively, and uncomment/comment out the lines needed for your instance.
-   5) Save your “yubi_lock.pyw" file.
+         1) While logged into your MSA, move to the tools folder of this project and run the "1_yubikey_username.py" file.
+            a) This will open a window that provides what Windows sees as your username.
+         2) While logged into your MSA, move to the tools folder of this project and run the "2_yubikey_sn.py" file.
+            a) This will open a window that provides what Yubikey SN(s) Windows detects.
+         3) Open up the "yubi_lock.pyw" file in either a Python Interpreter or a text editor.
+         4) Replace the values for your SN(s) and username respectively, and uncomment/comment out the lines needed for your instance.
+         5) Save your “yubi_lock.pyw" file.
 
 4. How to Use the Project
 
-   1) Copy your modified "yubi_lock.pyw" file.
-   2) Navigate to C:\Users\%USER%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
-      a) alternatively press: "win + r", and type: "shell:startup"
-   3) Paste your modified yubikey_lock.pyw as a SHORTCUT.
-   4) Reboot your device and attempt to login with your YubiKey on your MSA.
+         1) Copy your modified "yubi_lock.pyw" file.
+         2) Navigate to C:\Users\%USER%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+            a) alternatively press: "win + r", and type: "shell:startup"
+         3) Paste your modified yubikey_lock.pyw as a SHORTCUT.
+         4) Reboot your device and attempt to login with your YubiKey on your MSA.
 
 5. Credits
 
