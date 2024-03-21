@@ -2,12 +2,12 @@
 
 TABLE OF CONTENTS
 
-   1) Project Title
-   2) Project Description
-   3) What technologies were used
-   4) How to Install and Run the Project
-   5) How to Use the Project
-   6) Credits
+1) Project Title
+2) Project Description
+3) What technologies were used
+4) How to Install and Run the Project
+5) How to Use the Project
+6) Credits
 
 1. Project Title
 
@@ -62,11 +62,11 @@ TABLE OF CONTENTS
 
 5. How to Use the Project
 
-   1) Copy your modified "yubi_lock.pyw" file.
-   2) Navigate to C:\Users\%USER%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
-   3) alternatively press: "win + r", and type: "shell:startup"
-   4) Paste your modified "yubikey_lock.pyw" as a SHORTCUT.
-   5) Reboot your device and attempt to login with your YubiKey on your MSA.
+      1) Copy your modified "yubi_lock.pyw" file.
+      2) Navigate to C:\Users\%USER%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+      3) alternatively press: "win + r", and type: "shell:startup"
+      4) Paste your modified "yubikey_lock.pyw" as a SHORTCUT.
+      5) Reboot your device and attempt to login with your YubiKey on your MSA.
 
 6. Credits
 
