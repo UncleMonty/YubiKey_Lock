@@ -22,7 +22,7 @@ jobs:
         run: dir  # Use 'ls' if you're running on a Unix-like system
 
       - name: Install dependencies
-        run: pip install -r UncleMonty/yubikey_lock/requirements.txt  # Adjust as needed
+        run: pip install -r requirements.txt  # Adjust as needed
 
       - name: Run Pylint
         run: pylint **/*.py
