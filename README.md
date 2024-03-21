@@ -37,11 +37,12 @@ TABLE OF CONTENTS
    If you remove the Yubikey from its USB port, it will lock the screen within 1 second. 
 
    What technologies were used:
-      Windows 11
-      Visual Studio Code
-      Copilot
-      Chat GPT
-      Python 3.11+
+   
+   - Windows 11
+   - Visual Studio Code
+   - Copilot
+   - Chat GPT
+   - Python 3.11+
 
 4. How to Install and Run the Project
 
