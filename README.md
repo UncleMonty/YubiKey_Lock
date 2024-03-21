@@ -52,9 +52,9 @@ TABLE OF CONTENTS
    
    Download/Configuration
    
-         1) While logged into your MSA, move to the tools folder of this project and run the "1_yubikey_username.py" file.
+         1) While logged into your MSA, move to the tools\1_yubikey_username folder of this project and run the "1_yubikey_username.lnk" file.
             a) This will open a window that provides what Windows sees as your username.
-         2) While logged into your MSA, move to the tools folder of this project and run the "2_yubikey_sn.py" file.
+         2) While logged into your MSA, move to the tools\2_yubikey_sn folder of this project and run the "2_yubikey_sn.lnk" file.
             a) This will open a window that provides what Yubikey SN(s) Windows detects.
          3) Open up the "yubi_lock.pyw" file in either a Python Interpreter or a text editor.
          4) Replace the values for your SN(s) and username respectively, and uncomment/comment out the lines needed for your instance.
