@@ -46,9 +46,12 @@ TABLE OF CONTENTS
 4. How to Install and Run the Project
 
    FAILSAFE: Configure a local admin account that uses the Yubikey login (https://www.yubico.com/products/computer-login-tools/)
-      a) This is going to serve as a failsafe in case the application is misconfigured.
-      b) Confirm that this local administrator can read/write to C:\Users\%USER%; Make sure you can access your intended MSA account and its Startup folder.
-            
+   
+            a) This is going to serve as a failsafe in case the application is misconfigured.
+            b) Confirm that this local administrator can read/write to C:\Users\%USER%; Make sure you can access your intended MSA account and its Startup folder.
+   
+   Download/Configuration
+   
          1) While logged into your MSA, move to the tools folder of this project and run the "1_yubikey_username.py" file.
             a) This will open a window that provides what Windows sees as your username.
          2) While logged into your MSA, move to the tools folder of this project and run the "2_yubikey_sn.py" file.
@@ -57,7 +60,7 @@ TABLE OF CONTENTS
          4) Replace the values for your SN(s) and username respectively, and uncomment/comment out the lines needed for your instance.
          5) Save your “yubi_lock.pyw" file.
 
-5. How to Use the Project
+6. How to Use the Project
 
          1) Copy your modified "yubi_lock.pyw" file.
          2) Navigate to C:\Users\%USER%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
@@ -65,7 +68,7 @@ TABLE OF CONTENTS
          3) Paste your modified "yubikey_lock.pyw" as a SHORTCUT.
          4) Reboot your device and attempt to login with your YubiKey on your MSA.
 
-6. Credits
+7. Credits
 
          This is currently a solo project developed by UncleMonty
          https://github.com/UncleMonty
