@@ -28,7 +28,7 @@ TABLE OF CONTENTS
    - The application is a proof of concept for Yubikey token's for MSAs.
    - A Yubikey's serial number (SN) would be bounded to a Windows account (regardless if it was an MSA or local account).
    
-      1) The program checks the presence of Yubikey (By Product ID)
+      1) The program checks the presence of Yubikey (By Product ID).
       2) Then the program checks for that Yubikey's SN.
       3) The detected SN must match at least 1 of "EXPECTED_SERIAL_#" variables coded into the file, else the application locks the screen.
       4) The application then checks for the username logging in/currently logged in.
@@ -48,7 +48,7 @@ TABLE OF CONTENTS
 
 4. How to Install and Run the Project
 
-   - FAILSAFE: Configure a local admin account that uses the Yubikey login (https://www.yubico.com/products/computer-login-tools/)
+   - FAILSAFE: Configure a local admin account that uses the Yubikey login (https://www.yubico.com/products/computer-login-tools/).
       1) This is going to serve as a failsafe in case the application is misconfigured.
       2) Confirm that this local administrator can read/write to C:\Users\%USER%; Make sure you can access your intended MSA account and its Startup folder.
    
@@ -64,13 +64,13 @@ TABLE OF CONTENTS
 
 5. How to Use the Project
    
-      1) Copy your modified "yubi_lock.pyw" file.
-      2) Navigate to C:\Users\%USER%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
-      3) alternatively press: "win + r", and type: "shell:startup"
-      4) Paste your modified "yubikey_lock.pyw" as a SHORTCUT.
-      5) Reboot your device and attempt to login with your YubiKey on your MSA.
+   1) Copy your modified "yubi_lock.pyw" file.
+   2) Navigate to C:\Users\%USER%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup.
+   3) alternatively press: "win + r", and type: "shell:startup".
+   4) Paste your modified "yubikey_lock.pyw" as a SHORTCUT.
+   5) Reboot your device and attempt to login with your YubiKey on your MSA.
 
 7. Credits
 
-   This is currently a solo project developed by UncleMonty
-   https://github.com/UncleMonty
+   This is currently a solo project developed by UncleMonty.
+   https://github.com/UncleMonty.
