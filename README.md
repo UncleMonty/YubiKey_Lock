@@ -9,13 +9,13 @@ TABLE OF CONTENTS
    5) How to Use the Project
    6) Credits
 
-1. Project Title 
+1. Project Title
 
-   Yubikey Lock
+   - Yubikey Lock
 
-2. Project Description
+3. Project Description
 
-   Motivation:
+- Motivation:
    
   - I wanted to use my Yubikey token with my Microsoft Account (MSA) on my local hosts.
   - As of writing this (20-March-2024), this is not a feature for MSAs to be used on Windows when logging onto a host.
@@ -26,13 +26,13 @@ TABLE OF CONTENTS
 -    The application is a proof of concept for Yubikey token's for MSAs.
 -    A Yubikey's serial number (SN) would be bounded to a Windows account (regardless if it was an MSA or local account).
    
-   1) The program checks the presence of Yubikey (By Product ID)
-   2) Then the program checks for that Yubikey's SN.
-   3) The detected SN must match at least 1 of "EXPECTED_SERIAL_#" variables coded into the file, else the application locks the screen.
-   4) The application then checks for the username logging in/currently logged in.
-   5) The detected username must match the "EXPECTED_USER" variable coded into the file, else the application locks the screen.
-   6) If both constraints are met, the user can log on or remained logged on.
-   7) The program checks for these constraints every 1 second.
+      1) The program checks the presence of Yubikey (By Product ID)
+      2) Then the program checks for that Yubikey's SN.
+      3) The detected SN must match at least 1 of "EXPECTED_SERIAL_#" variables coded into the file, else the application locks the screen.
+      4) The application then checks for the username logging in/currently logged in.
+      5) The detected username must match the "EXPECTED_USER" variable coded into the file, else the application locks the screen.
+      6) If both constraints are met, the user can log on or remained logged on.
+      7) The program checks for these constraints every 1 second.
 
 -    If you remove the Yubikey from its USB port, it will lock the screen within 1 second. 
 
