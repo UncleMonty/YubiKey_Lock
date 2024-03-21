@@ -16,11 +16,13 @@ TABLE OF CONTENTS
 
       Motivation:
    
-        I wanted to use my Yubikey token with my Microsoft Account (MSA) on my local hosts.
-        As of writing this (20-March-2024), this is not a feature for MSAs to be used on Windows when logging onto a host.
-        I wanted this application to function similarly to using a Common Access Card (CAC) or a Personal Identity Verification (PIV) token.
-        
-    What the application does:
+        - I wanted to use my Yubikey token with my Microsoft Account (MSA) on my local hosts.
+   
+        - As of writing this (20-March-2024), this is not a feature for MSAs to be used on Windows when logging onto a host.
+   
+        - I wanted this application to function similarly to using a Common Access Card (CAC) or a Personal Identity Verification (PIV) token.
+
+      What the application does:
    
         The application is a proof of concept for Yubikey token's for MSAs.
         A Yubikey's serial number (SN) would be bounded to a Windows account (regardless if it was an MSA or local account).
@@ -32,8 +34,8 @@ TABLE OF CONTENTS
           6) If both constraints are met, the user can log on or remained logged on.
           7) The program checks for these constraints every 1 second.
        If you remove the Yubikey from its USB port, it will lock the screen within 1 second. 
-        
-    What technologies were used:
+
+      What technologies were used:
    
         Windows 11
         Visual Studio Code
@@ -41,7 +43,7 @@ TABLE OF CONTENTS
         Chat GPT
         Python 3.11+
 
-3. How to Install and Run the Project
+4. How to Install and Run the Project
 
    FAILSAFE: Configure a local admin account that uses the Yubikey login (https://www.yubico.com/products/computer-login-tools/)
       a) This is going to serve as a failsafe in case the application is misconfigured.
@@ -55,15 +57,15 @@ TABLE OF CONTENTS
          4) Replace the values for your SN(s) and username respectively, and uncomment/comment out the lines needed for your instance.
          5) Save your “yubi_lock.pyw" file.
 
-4. How to Use the Project
+5. How to Use the Project
 
          1) Copy your modified "yubi_lock.pyw" file.
          2) Navigate to C:\Users\%USER%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
             a) alternatively press: "win + r", and type: "shell:startup"
-         3) Paste your modified yubikey_lock.pyw as a SHORTCUT.
+         3) Paste your modified "yubikey_lock.pyw" as a SHORTCUT.
          4) Reboot your device and attempt to login with your YubiKey on your MSA.
 
-5. Credits
+6. Credits
 
-   This is currently a solo project developed by UncleMonty
-   https://github.com/UncleMonty
+         This is currently a solo project developed by UncleMonty
+         https://github.com/UncleMonty
