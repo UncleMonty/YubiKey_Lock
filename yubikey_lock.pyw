@@ -35,7 +35,7 @@ def find_yubikeys():
 def get_current_username():
     """
     Retrieves the current username using the getlogin() function.
-    """   
+    """
     try:
         username = os.getlogin()
         return username
