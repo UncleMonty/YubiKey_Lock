@@ -1,3 +1,10 @@
+"""
+YubiKey Lock Script
+
+This script detects YubiKey devices and performs username detection.
+Modify the expected serial numbers and username as needed.
+"""
+
 import os
 import time
 import ctypes
@@ -14,6 +21,9 @@ EXPECTED_USER = 'FILL IN USERNAME HERE'  # Modify this to your expected username
 
 # Find YubiKey device
 def find_yubikeys():
+    """
+    Finds connected YubiKey devices and returns their serial numbers.
+    """
     connected_serials = set()
     devices = list_all_devices()
     for devices, info in devices:
@@ -23,6 +33,9 @@ def find_yubikeys():
 
 # Use the getpass module to get the username
 def get_current_username():
+    """
+    Retrieves the current username using the getlogin() function.
+    """   
     try:
         username = os.getlogin()
         return username
@@ -32,10 +45,16 @@ def get_current_username():
 
 # Lock the workstation
 def lock_screen():
+    """
+    Locks the workstation using ctypes.windll.user32.LockWorkStation().
+    """
     ctypes.windll.user32.LockWorkStation()
 
 # This is the main function that performs the Yubikey and Username detection
 def main():
+    """
+    Main function for YubiKey and username detection.
+    """
     while True:
         connected_serials = find_yubikeys()
         username = get_current_username()
