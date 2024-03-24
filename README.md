@@ -57,7 +57,7 @@
    
       1) While logged into your MSA, download and extract the project.
       2) Move to the \YubiKey_Lock-main\YubiKey_Lock-main\requirements directory and run the "install_python.bat" file.
-      3) Follow the onscreen instruction to install python.
+      3) Your antivirus may want to action this, or ask if you want to run this. Run it anyway.
       4) After installing python, run the "install_requirements.bat" in the \YubiKey_Lock-main\YubiKey_Lock-main\requirements directory.
       5) This batch file will run command called pip that is the standard package manager for Python, to install and manage libraries and dependencies from the requirements.txt file.
       6) Your antivirus may flag this process. You may want to action your antivirus to exclude for blocking this process.
