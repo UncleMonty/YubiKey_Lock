@@ -56,13 +56,13 @@
    - Download/Configuration
    
       1) While logged into your MSA, download and extract the project.
-      2) Move to the \requirements\ directory and run the "install_python.bat" file.
+      2) Move to the \YubiKey_Lock-main\YubiKey_Lock-main\requirements directory and run the "install_python.bat" file.
       3) Follow the onscreen instruction to install python.
-      4) After installing python, run the "install_requirements.bat" in the \requirements\ directory.
+      4) After installing python, run the "install_requirements.bat" in the \YubiKey_Lock-main\YubiKey_Lock-main\requirements directory.
       5) This batch file will run command called pip that is the standard package manager for Python, to install and manage libraries and dependencies from the requirements.txt file.
       6) Your antivirus may flag this process. You may want to action your antivirus to exclude for blocking this process.
-      7) After installing both python and requirements, move to the \tools\1_yubikey_username\ folder of this project and run the "1_yubikey_username.lnk" file.
-      8) After identifying what Windows reads as your username, move to the tools\2_yubikey_sn folder of this project and run the "2_yubikey_sn.lnk" file.
+      7) After installing both python and requirements, move to the \YubiKey_Lock-main\YubiKey_Lock-main\tools\1_yubikey_username directory of this project and run the "1_yubikey_username.lnk" file.
+      8) After identifying what Windows reads as your username, move to the \YubiKey_Lock-main\tools\2_yubikey_sn directory of this project and run the "2_yubikey_sn.lnk" file.
       10) This will open a window that provides what YubiKey SN(s) Windows detects.
       11) Open up the "yubi_lock.pyw" file in either a Python Interpreter or a text editor.
       12) Replace the values for your SN(s) and username respectively, and uncomment/comment out the lines needed for your instance.
