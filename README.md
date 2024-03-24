@@ -57,7 +57,7 @@
    
       1) While logged into your MSA, download and extract the project.
       2) Move to the \YubiKey_Lock-main\YubiKey_Lock-main\requirements directory and run "python-3.11.8-amd64.exe".
-      3) Ensure that "add python.exe tp PATH" is checked.
+      3) Ensure that "add python.exe to PATH" is checked.
       4) After installing python, run the "install_requirements.bat" in the \YubiKey_Lock-main\YubiKey_Lock-main\requirements directory.
       6) This batch file will run command called pip that is the standard package manager for Python, to install and manage libraries and dependencies from the requirements.txt file.
       7) Your antivirus may flag this process. You may want to action your antivirus to exclude for blocking this process.
