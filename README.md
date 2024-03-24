@@ -64,14 +64,14 @@
       8) After installing both python and requirements, move to the \YubiKey_Lock-main\YubiKey_Lock-main\tools\1_yubikey_username directory of this project and run the "1_yubikey_username.lnk" file.
       9) After identifying what Windows reads as your username, move to the \YubiKey_Lock-main\tools\2_yubikey_sn directory of this project and run the "2_yubikey_sn.lnk" file.
       10) This will open a window that provides what YubiKey SN(s) Windows detects.
-      11) Open up the "yubi_lock.pyw" file in either a Python Interpreter or a text editor.
+      11) Open up the "yubikey_lock.pyw" file in either a Python Interpreter or a text editor.
       12) Replace the values for your SN(s) and username respectively, and uncomment/comment out the lines needed for your instance.
-      13) There is a section in which you will need to identify the Product_ID of your YubiKey. There is a hyperlink provided to take you to the page for this. Replace the value from that page to the code accordingly.
-      14) Save your “yubi_lock.pyw" file.
+      13) There is a section in which you will need to identify the Product_ID of your YubiKey. There is a hyperlink provided to take you to the page for this. Replace the value from that page to the code accordingly. (OPTIONAL): You can try this hyperlink as well: https://support.yubico.com/hc/en-us/articles/360013714459-How-to-Find-the-USB-Product-ID 
+      14) Save your “yubikey_lock.pyw" file.
 
 ### 5. How to Use the Project
    
-   1) Copy your modified "yubi_lock.pyw" file.
+   1) Copy your modified "yubikey_lock.pyw" file.
    2) Navigate to C:\Users\%USER%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup.
    3) alternatively press: "win + r", and type: "shell:startup".
    4) Paste your modified "yubikey_lock.pyw" as a SHORTCUT.
