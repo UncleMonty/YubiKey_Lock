@@ -1,1 +1,0 @@
-python-3.11.8-amd64.exe /quiet InstallAllUsers=0 PrependPath=1 Include_test=0
