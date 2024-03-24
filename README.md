@@ -1,4 +1,4 @@
-# YubiKey_Lock
+# YubiKey Lock
 
 ## TABLE OF CONTENTS
 
