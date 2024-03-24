@@ -1,6 +1,6 @@
 # YubiKey_Lock
 
-TABLE OF CONTENTS
+## TABLE OF CONTENTS
 
 1) Project Title
 2) Project Description
@@ -11,11 +11,11 @@ TABLE OF CONTENTS
 
 ######################################
 
-1. Project Title
+### 1. Project Title
 
    - YubiKey Lock
 
-2. Project Description
+### 2. Project Description
 
 - Motivation:
    
@@ -38,7 +38,7 @@ TABLE OF CONTENTS
 
    - If you remove the YubiKey from its USB port, it will lock the screen within 1 second. 
 
-3. What technologies were used:
+### 3. What technologies were used:
    
    - Windows 11
    - Visual Studio Code
@@ -46,7 +46,7 @@ TABLE OF CONTENTS
    - Chat GPT
    - Python 3.11+
 
-4. How to Install and Run the Project
+### 4. How to Install and Run the Project
 
    - FAILSAFE: Configure a local admin account that uses the YubiKey login (https://www.yubico.com/products/computer-login-tools/).
       1) This is going to serve as a failsafe in case the application is misconfigured.
@@ -69,7 +69,7 @@ TABLE OF CONTENTS
       13) There is a section in which you will need to identify the Product_ID of your YubiKey. There is a hyperlink provided to take you to the page for this. Replace the value from that page to the code accordingly.
       14) Save your “yubi_lock.pyw" file.
 
-5. How to Use the Project
+### 5. How to Use the Project
    
    1) Copy your modified "yubi_lock.pyw" file.
    2) Navigate to C:\Users\%USER%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup.
@@ -77,7 +77,7 @@ TABLE OF CONTENTS
    4) Paste your modified "yubikey_lock.pyw" as a SHORTCUT.
    5) Reboot your device and attempt to login with your YubiKey on your MSA.
 
-7. Credits
+### 6. Credits
 
    This is currently a solo project developed by UncleMonty.
    https://github.com/UncleMonty.
