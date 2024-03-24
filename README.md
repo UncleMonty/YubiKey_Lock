@@ -66,7 +66,7 @@
       10) This will open a window that provides what YubiKey SN(s) Windows detects.
       11) Open up the "yubikey_lock.pyw" file in either a Python Interpreter or a text editor.
       12) Replace the values for your SN(s) and username respectively, and uncomment/comment out the lines needed for your instance.
-      13) There is a section in which you will need to identify the Product_ID of your YubiKey. There is a hyperlink provided to take you to the page for this. Replace the value from that page to the code accordingly. (OPTIONAL): You can try this hyperlink as well: https://support.yubico.com/hc/en-us/articles/360013714459-How-to-Find-the-USB-Product-ID 
+      13) There is a section in which you will need to identify the Product_ID of your YubiKey. There is a hyperlink provided to take you to the page for this. Replace the value from that page to the code accordingly. (OPTIONAL): You can try this hyperlink as well: https://support.yubico.com/hc/en-us/articles/360013714459-How-to-Find-the-USB-Product-ID. 
       14) Save your “yubikey_lock.pyw" file.
 
 ### 5. How to Use the Project
