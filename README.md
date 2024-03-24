@@ -66,7 +66,8 @@ TABLE OF CONTENTS
       10) This will open a window that provides what YubiKey SN(s) Windows detects.
       11) Open up the "yubi_lock.pyw" file in either a Python Interpreter or a text editor.
       12) Replace the values for your SN(s) and username respectively, and uncomment/comment out the lines needed for your instance.
-      13) Save your “yubi_lock.pyw" file.
+      13) There is a section in which you will need to identify the Product_ID of your YubiKey. There is a hyperlink provided to take you to the page for this. Replace the value from that page to the code accordingly.
+      14) Save your “yubi_lock.pyw" file.
 
 5. How to Use the Project
    
@@ -80,3 +81,5 @@ TABLE OF CONTENTS
 
    This is currently a solo project developed by UncleMonty.
    https://github.com/UncleMonty.
+
+   I am open to taking in technical feedback to make this project less "Proof of Concept", and more of user friendly application.
