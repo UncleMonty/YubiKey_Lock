@@ -31,7 +31,7 @@ nest-asyncio==1.6.0
 packaging==24.0
 parso==0.8.3
 pefile==2023.2.7
-pillow==10.2.0
+pillow==10.3.0
 pkg-about==1.1.5
 platformdirs==4.2.0
 prompt-toolkit==3.0.43
